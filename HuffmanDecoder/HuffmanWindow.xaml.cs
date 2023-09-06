@@ -38,8 +38,8 @@ namespace HuffmanDecoder
         private void DrawNode(TreeNode node, int tier, Point pos)
         {
             Ellipse nodeElps = new Ellipse();
-            SetNodeStyle(nodeElps, 
-                (node.IsLeaf ? node.Value + "，对应哈夫曼编码为" + node.PathCode : "非叶子结点") 
+            SetNodeStyle(nodeElps,
+                (node.IsLeaf ? (node.Value == ' ' ? "空格" : node.Value + "") + "，对应哈夫曼编码为" + node.PathCode : "非叶子结点")
                 + "\n权值为：" + node.Weight + "\n");
             if (node.IsLeaf) //叶子结点，有码
             {
