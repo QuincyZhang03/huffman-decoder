@@ -19,7 +19,7 @@
                 <ColumnDefinition />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Margin="17,12" FontSize="14" Foreground="Blue" Background="LightGreen" FontWeight="Bold" Name="btn_Decode" Click="btn_Decode_Click">译码</Button>
+            <Button Grid.Column="0" Margin="17,12" FontSize="14" Foreground="Blue" Background="LightGreen" FontWeight="Bold" Name="btn_Decode" Click="btn_Decode_Click">译码(Enter)</Button>
             <Button Grid.Column="1" Margin="17,12" FontSize="14" Name="btn_ShowHuffmanTree" Click="btn_ShowHuffmanTree_Click">显示哈夫曼树</Button>
             <Button Grid.Column="2" Margin="17,12" FontSize="14" Name="btn_ShowCode" Click="btn_ShowCode_Click">显示编码</Button>
             <Button Grid.Column="3" Margin="17,12" FontSize="14" Name="btn_About" Click="btn_About_Click">关于</Button>
